@@ -9,19 +9,6 @@
   ],
   "creatorBuild" : "34484",
   "files" : {
-    "\/assets\/chonk.png" : {
-      "ft" : 32768,
-      "iS" : 1088557,
-      "oA" : 0,
-      "oAP" : "\/assets\/chonk.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -34,18 +21,205 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/chonk.png" : {
-      "ft" : 32768,
-      "iS" : 1088557,
+    "\/deploy\/img\/book1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/chonk.png",
-      "oF" : 0,
-      "oIPL" : 0,
+      "oAP" : "\/deploy\/img\/book1.svg",
+      "oF" : 1,
       "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/book2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/book2.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/book3.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/book3.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/book4.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/book4.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/carcass.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/carcass.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/dovetail.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/dovetail.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/hero-img.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero-img.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/history.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/history.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/icon\/arrow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/icon\/arrow.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/icon\/avatar.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/icon\/avatar.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/icon\/cart.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/icon\/cart.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/icon\/hamburger.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/icon\/hamburger.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/icon\/main-stars.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/icon\/main-stars.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/icon\/sub-stars.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/icon\/sub-stars.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/logo.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/materials.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/materials.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/review-pic1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/review-pic1.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/review-pic2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/review-pic2.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/review-pic3.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/review-pic3.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/tenon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/tenon.svg",
+      "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -81,7 +255,7 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/deploy\/js\/scripts-min.js",
-      "oF" : 2,
+      "oF" : 3,
       "sC" : 3,
       "tS" : 0
     },
@@ -93,9 +267,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/base\/_base.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -108,9 +282,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/base\/_normalize.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -123,9 +297,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/base\/_typography.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -138,9 +312,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/components\/_buttons.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -153,9 +327,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/components\/_forms.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -168,9 +342,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/components\/_navigation.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -183,9 +357,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/helpers\/_mixins.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -198,9 +372,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/helpers\/_variables.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -213,9 +387,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/layout\/_footer.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -228,9 +402,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -245,7 +419,7 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/css\/styles.css",
-      "oF" : 2,
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -278,7 +452,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 673791564.33405399,
-    "displayValue" : "Joe-Web-3-Template",
+    "displayValue" : "Hoa-Web-3-Final",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-unblue",
     "iconImageWasSetByUser" : 0
