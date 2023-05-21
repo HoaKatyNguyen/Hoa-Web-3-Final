@@ -240,6 +240,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/check-out.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/html\/check-out.html",
+      "oF" : 2
+    },
     "\/dev\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -423,6 +431,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/thanks.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/html\/thanks.html",
+      "oF" : 2
     },
     "\/README.md" : {
       "cB" : 0,
