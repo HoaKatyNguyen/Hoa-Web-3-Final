@@ -21,6 +21,22 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/html\/check-out.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/html\/check-out.html",
+      "oF" : 0
+    },
+    "\/deploy\/html\/thanks.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/html\/thanks.html",
+      "oF" : 0
+    },
     "\/deploy\/img\/book1.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -67,6 +83,16 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/carcass.svg",
       "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/check-out.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/check-out.svg",
+      "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
@@ -147,6 +173,26 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/icon\/main-stars.svg",
       "oF" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/icon\/next-arrow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/icon\/next-arrow.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/icon\/search.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/icon\/search.svg",
+      "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
