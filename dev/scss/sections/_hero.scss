@@ -1,0 +1,34 @@
+/* =============
+    hero
+============= */
+
+
+
+.hero{
+    background-image: url(img/hero-img.svg);
+}
+
+.hero-img{
+    width: 390px;
+    height: 435px;
+    object-fit: cover;
+}
+
+.text-box{
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 328px;
+    height: 383px;
+    padding: 20px;
+}
+
+.materials{
+    margin-top: 50px;
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-bottom: 124px;
+}

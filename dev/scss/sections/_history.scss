@@ -1,0 +1,27 @@
+/* =============
+    history
+============= */
+
+
+
+.history{
+    background-image: url(img/history.svg);
+}
+
+.history-img{
+    width: 390px;
+    height: 611px;
+    object-fit: cover;
+}
+
+.history-box{
+    background-color: #EDA971;
+    transform: translate(40px, -125%);
+    width: 267px;
+    height: 393px;
+    padding: 20px;
+}
+
+.history-button{
+    transform: translate(255px,-2150%);
+}

@@ -1,0 +1,21 @@
+/* =============
+    three-saws
+============= */
+
+
+.saw-back{
+    background-color: white;
+    margin-bottom: 50px;
+    padding-bottom: 48px;
+}
+
+.choices{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "options quantity";
+}
+
+.cart{
+    margin-left: 92px;
+    margin-right: 92px;
+}

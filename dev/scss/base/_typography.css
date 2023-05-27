@@ -1,0 +1,26 @@
+/* =============
+    Typography
+============= */
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.price {
+  text-align: center;
+}
+
+.review-header {
+  text-align: left;
+}
+
+.book-text {
+  text-align: center;
+}
+
+.footer-title {
+  text-align: left;
+}
