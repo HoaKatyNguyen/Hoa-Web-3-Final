@@ -11,8 +11,22 @@
 
 .cart {
   background-color: #EDA971;
+  border-radius: 10px;
 }
 
 .show {
   background-color: #F4DAC8;
+  border-radius: 10px;
+  width: 139px;
+  padding: 9px 11px 9px 11px;
+  margin-left: 195px;
+  margin-bottom: 18px;
+}
+
+.sign-up {
+  background-color: #F4DAC8;
+  border-radius: 10px;
+  width: 224px;
+  padding: 9px 11px 9px 11px;
+  margin-top: 5px;
 }

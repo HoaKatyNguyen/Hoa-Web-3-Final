@@ -339,12 +339,42 @@ body {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.merri {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+button {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.price {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
 h1 {
+  font-family: "Merriweather", serif;
   text-align: center;
+  font-weight: 900;
+  font-size: 25px;
 }
 
 h2 {
+  font-family: "Merriweather", serif;
   text-align: center;
+  font-weight: 700;
+  font-size: 25px;
 }
 
 .price {
@@ -363,6 +393,11 @@ h2 {
   text-align: left;
 }
 
+.display {
+  font-weight: 600;
+  font-size: 16px;
+}
+
 /* =============
     Buttons
 ============= */
@@ -376,10 +411,24 @@ h2 {
 
 .cart {
   background-color: #EDA971;
+  border-radius: 10px;
 }
 
 .show {
   background-color: #F4DAC8;
+  border-radius: 10px;
+  width: 139px;
+  padding: 9px 11px 9px 11px;
+  margin-left: 195px;
+  margin-bottom: 18px;
+}
+
+.sign-up {
+  background-color: #F4DAC8;
+  border-radius: 10px;
+  width: 224px;
+  padding: 9px 11px 9px 11px;
+  margin-top: 5px;
 }
 
 /* =============
@@ -427,10 +476,7 @@ footer {
   background-color: #EDA971;
   padding: 18px 60px 18px 60px;
   margin-bottom: 20px;
-}
-
-.book-button {
-  margin-left: 221px;
+  border-radius: 10px;
 }
 
 /* =============
@@ -452,10 +498,11 @@ footer {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  width: 328px;
-  height: 383px;
-  padding: 20px;
+  transform: translate(-50%, -40%);
+  width: 65%;
+  height: auto;
+  padding: 30px;
+  border-radius: 10px;
 }
 
 .materials {
@@ -480,14 +527,11 @@ footer {
 
 .history-box {
   background-color: #EDA971;
-  transform: translate(40px, -125%);
-  width: 267px;
-  height: 393px;
-  padding: 20px;
-}
-
-.history-button {
-  transform: translate(255px, -2150%);
+  transform: translate(65px, -150%);
+  width: 192px;
+  height: auto;
+  padding: 37px;
+  border-radius: 10px;
 }
 
 /* =============
@@ -501,10 +545,7 @@ footer {
   background-color: white;
   margin-bottom: 18px;
   padding: 25px;
-}
-
-.review-button {
-  margin-left: 221px;
+  border-radius: 10px;
 }
 
 /* =============
