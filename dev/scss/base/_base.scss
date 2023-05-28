@@ -5,7 +5,7 @@
 
 .margin-con{
     display: grid;
-    grid-template-columns: 30px auto 30px;
+    grid-template-columns: 25px auto 25px;
     grid-template-areas: ". content .";
 }
 
@@ -15,4 +15,10 @@
 
 body{
     background-color: #F4DAC8;
+}
+
+body{
+    @include lg{
+      background-color: lime;
+    }
 }
