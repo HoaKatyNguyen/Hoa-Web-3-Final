@@ -16,9 +16,3 @@
 body{
     background-color: #F4DAC8;
 }
-
-body{
-    @include lg{
-      background-color: lime;
-    }
-}

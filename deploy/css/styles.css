@@ -336,12 +336,6 @@ body {
   background-color: #F4DAC8;
 }
 
-@media (min-width: 992px) {
-  body {
-    background-color: lime;
-  }
-}
-
 /* =============
     Typography
 ============= */
