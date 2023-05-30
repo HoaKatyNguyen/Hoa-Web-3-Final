@@ -21,8 +21,27 @@
     border-radius: 10px;
     width: 139px;
     padding: 9px 11px 9px 11px;
-    margin-left: 195px;
+    margin-left: 205px;
     margin-bottom: 18px;
+
+    @include lg{
+        margin-left: 1115px;
+        width: 199px;
+    }
+}
+
+.history-button{
+    background-color: #F4DAC8;
+    border-radius: 10px;
+    width: 139px;
+    padding: 9px 11px 9px 11px;
+    margin-left: 190px;
+    margin-bottom: 18px;
+
+    @include lg{
+        margin-left: 1175px;
+        width: 199px;
+    }
 }
 
 .sign-up{

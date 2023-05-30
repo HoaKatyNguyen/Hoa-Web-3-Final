@@ -15,4 +15,13 @@
 
 body{
     background-color: #F4DAC8;
+
+    @include lg{
+        .margin-con{
+            display: grid;
+            grid-template-columns: 64px auto 64px;
+            grid-template-areas: ". content .";
+        }
+        
+    }
 }

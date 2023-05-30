@@ -10,3 +10,34 @@
     margin-bottom: 20px;
     border-radius: 10px;
 }
+
+.books{
+    @include lg{
+
+        background-color: white;
+        padding-top: 35px;
+        margin-bottom: 100px;
+
+        .book-con{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-areas: "book1 book2 book3 book4";
+        }
+
+        .book-box{
+            padding: 18px 50px 18px 50px;
+        }
+
+        .book1{
+            margin-right: 20px;
+        }
+
+        .book2{
+            margin-right: 20px;
+        }
+
+        .book3{
+            margin-right: 20px;
+        }
+    }
+}

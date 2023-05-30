@@ -13,3 +13,11 @@
     padding: 25px;
     border-radius: 10px;
 }
+
+.review-background{
+    @include lg{
+        .review-box{
+            border-radius: 20px;
+        }
+    }
+}

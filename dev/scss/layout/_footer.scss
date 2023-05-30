@@ -5,4 +5,14 @@
 
 footer{
     background-color: #9A5C43;
+
+    @include lg{
+        .footer-con{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas: "help social subscribe";
+
+            margin-bottom: 202px;
+        }
+    }
 }
