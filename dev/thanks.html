@@ -18,44 +18,95 @@
 
 <!--Pain and suffereing-->
   <body>
-    <header>
-      <img src="../img/logo.svg" alt="logo">
+    <header class="margin-con">
+      <section class="content">
 
-      <form action="#">
-        <input type="text" placeholder="Search">
-        <img src="../img/icon/search.svg" alt="search-img">
-      </form>
+      <div class="header-con">
+        <img src="../img/logo.svg" alt="logo">
 
-      <img src="../img/icon/avatar.svg" alt="avatar">
+        <form action="#">
+          <input type="text" placeholder="Search">
+          <img src="../img/icon/search.svg" alt="search-img">
+        </form>
+
+  <!-- Mobile Nav Icon, Won't Display on Desktop & Up-->
+    <button id="burger-btn">
+      <img src="../img/icon/hamburger.svg" alt="hamburger">
+    </button>
+  <!-- End Mobile Nav Icon -->
+  
+  <!-- Menu Alters Between Mobile/Tablet & Desktop-->
+  <nav id="main-menu">
+      <div>
+          <button id="close-btn">
+              <img class="close" src="../img/icon/close.svg" alt="close">
+          </button> 
+      </div>
+      <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../html/check-out.html">Check Out</a></li>
+          <li><a href="#">Thanks</a></li>    
+      </ul>
+  </nav>
+  <!--End Nav -->
+      </div>
+      
+      </section>
     </header>
 
 <!--Logo-->
-    <img src="../img/logo.svg" alt="logo">
-    <p>Thank you for shopping with us</p>
+    <img class="logo-img" src="../img/logo.svg" alt="logo">
+    <h2 class="thank-you">Thank you for shopping with us</h2>
 
 
 <!--Order History-->
-    <h1>Order History</h1>
+  <section class="margin-con">
+    <section class="content">
+      <h1>Order History</h1>
 
-    <img src="../img/dovetail.svg" alt="dovetail">
-    <h2>Dovetail Saw with Cherry Handle</h2>
-    <p>Quantity: 1</p>
-    <p>$175.00</p>
+      <div class="order-box">
+
+        <div>
+          <img src="../img/dovetail.svg" alt="dovetail">
+        </div>
+
+        <div>
+          <h2>Dovetail Saw with Cherry Handle</h2>
+          <p>Quantity: 1</p>
+          <p>$175.00</p>
+        </div>
+
+      </div>
+
+    </section>
+  </section>
 
 
 <!--More-->
-    <h1>More products like this</h1>
+  <section class="margin-con">
+    <section class="content">
+      <h1 class="more">More products like this</h1>
 
-   <img src="../img/carcass.svg" alt="carcass">
-   <img src="../img/tenon.svg" alt="tenon">
-   <img src="../img/dovetail.svg" alt="dovetail">
-   <img src="../img/tenon.svg" alt="tenon">
+      <section class="saws">
+        <img class="saw-img" src="../img/carcass.svg" alt="carcass">
+        <img class="saw-img" src="../img/tenon.svg" alt="tenon">
+        <img class="saw-img" src="../img/dovetail.svg" alt="dovetail">
+        <img class="saw-img" src="../img/tenon.svg" alt="tenon">
+      </section>
+
+      <button class="thank-show">Show More</button>
+
+    </section>
+  </section>
 
 
 <!--Footer-->
-<footer>
+<footer class="margin-con">
+  <div class="content">
 
-  <section>
+  <section class="footer-con">
+
+  <section class="help">
     <h1>Help</h1>
     <p>Contact Us</p>
     <p>Help Center</p>
@@ -63,7 +114,7 @@
     <p>Accessibility</p>
   </section>
 
-  <section>
+  <section class="social">
     <h1>Social</h1>
     <p>Instagram</p>
     <p>Facebook</p>
@@ -71,17 +122,19 @@
     <p>Twitter</p>
   </section>
 
-  <section>
+  <section class="subscribe">
     <h1>Subscribe</h1>
 
     <form action="#">
       <input type="text" placeholder="Email Address">
     </form>
 
-    <button>SIGN UP NOW</button>
+    <button class="sign-up">SIGN UP NOW</button>
+  </section>
 
   </section>
 
+</div>
 </footer>
 
 

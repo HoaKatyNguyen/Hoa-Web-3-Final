@@ -13,15 +13,142 @@
     grid-area: content;
 }
 
+/* nav */
+
+ul{
+    margin: 0;
+    padding: 0;
+
+    li{
+        list-style: none;
+    }
+}
+
+.close{
+    width: 25px;
+    height: 25px;
+}
+
+.show-menu{
+    display: block !important;
+}
+
 body{
     background-color: #F4DAC8;
 
     @include lg{
+
+        /* check-out */
+
         .margin-con{
             display: grid;
             grid-template-columns: 64px auto 64px;
             grid-template-areas: ". content .";
         }
+
+        .header-con{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
         
+        .logo-img{
+            width: 35%;
+            margin-top: 50px;
+            margin-left: 33%;
+            margin-bottom: 50px;
+        }
+
+        .circles{
+            margin-left: 15%;
+            margin-bottom: 50px;
+        }
+
+        h1{
+            text-align: left;
+        }
+
+        h2{
+            text-align: left;
+        }
+
+        .order-box{
+            background-color: white;
+            padding: 18px;
+            
+            display: grid;
+            grid-template-columns: 25% 55% 20%;
+
+            .button-con{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                margin-top: 30%;
+                margin-bottom: 15%;
+            }
+        }
+
+        .shipping{
+            background-color: #9A5C43;
+            padding: 2%;
+        }
+
+        .info{
+            margin-left: 10%;
+        }
+
+        .names{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .location{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .payment{
+            margin-left: 80%;
+            background-color: #EDA971;
+            border-radius: 10px;
+        }
+
+        .price{
+            text-align: left;
+        }
+
+        .order{
+            background-color: #EDA971;
+            border-radius: 10px;
+        }
+
+        /* thanks */
+
+        .thank-you{
+            text-align: center;
+            margin-bottom: 10%;
+        }
+
+        .more{
+            margin-top: 120px;
+        }
+
+        .saw-img{
+            width: 311px;
+            height: 162px;
+            object-fit: cover;
+        }
+
+        .saws{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        .thank-show{
+            background-color:#EDA971;
+            border-radius: 10px;
+            padding: 10px;
+            margin-top: 15px;
+            margin-left: 86%;
+            margin-bottom: 50px;
+        }
     }
 }

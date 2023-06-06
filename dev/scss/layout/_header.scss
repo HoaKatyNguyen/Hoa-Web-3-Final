@@ -5,9 +5,33 @@
 
 header{
     background-color: #9A5C43;
-    justify-content: space-between;
     padding-top: 36px;
     padding-bottom: 18px;
 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
+    @include lg{
+        header{
+            background-color: #9A5C43;
+            padding-top: 36px;
+            padding-bottom: 18px;
+        }
+    }
+
+
+        @include lg{
+            display: none;
+        }
+
+        button{
+            border: none;
+            background-color: transparent;
+            color: $black;
+            font-size: 20px;
+
+            &:hover{
+                cursor: pointer;
+            }
+    }
 }

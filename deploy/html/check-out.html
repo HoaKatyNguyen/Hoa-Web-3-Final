@@ -18,75 +18,122 @@
 
 <!--Pain and suffereing-->
   <body>
-    <header>
-      <img src="../img/logo.svg" alt="logo">
+    <header class="margin-con">
+      <section class="content">
 
-      <form action="#">
-        <input type="text" placeholder="Search">
-        <img src="../img/icon/search.svg" alt="search-img">
-      </form>
+        <div class="header-con">
+        <img src="../img/logo.svg" alt="logo">
 
-      <img src="../img/icon/avatar.svg" alt="avatar">
+        <form action="#">
+          <input type="text" placeholder="Search">
+          <img src="../img/icon/search.svg" alt="search-img">
+        </form>
+
+  <!-- Mobile Nav Icon, Won't Display on Desktop & Up-->
+      <button id="burger-btn">
+        <img src="../img/icon/hamburger.svg" alt="hamburger">
+      </button>
+  <!-- End Mobile Nav Icon -->
+  
+  <!-- Menu Alters Between Mobile/Tablet & Desktop-->
+  <nav id="main-menu">
+      <div>
+          <button id="close-btn">
+              <img class="close" src="../img/icon/close.svg" alt="close">
+          </button> 
+      </div>
+      <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="#">Check Out</a></li>
+          <li><a href="../html/thanks.html">Thanks</a></li>    
+      </ul>
+  </nav>
+  <!--End Nav -->
+        </div>
+      </section>
     </header>
     
     <br>
 
 
-<!--logo and nav-->
-   <img src="../img/logo.svg" alt="logo">
+<!--logo and circles-->
+   <img class="logo-img" src="../img/logo.svg" alt="logo">
 
     <br>
 
-   <img src="../img/check-out.svg" alt="check-out">
+   <img class="circles" src="../img/check-out.svg" alt="check-out">
    
 
 <!--Order Details-->
-    <h1>Order Details</h1>
+    <section class="margin-con">
+      <section class="content">
+        <h1>Order Details</h1>
 
-    <img src="../img/dovetail.svg" alt="dovetail">
-    <h2>Dovetail Saw with Cherry Handle</h2>
-    <p>Quantity: 1</p>
-    <p>$175.00</p>
+        <div class="order-box">
+          <div>
+            <img src="../img/dovetail.svg" alt="dovetail">
+          </div>
 
-    <button>Edit Order</button>
-    <button>Remove</button>
+          <div>
+            <h2>Dovetail Saw with Cherry Handle</h2>
+            <p>Quantity: 1</p>
+            <p class="price">$175.00</p>
+          </div>
+
+          <div class="button-con">
+            <button class="order">Edit Order</button>
+            <button class="order">Remove</button>
+          </div>
+        </div>
+
+      </section>
+    </section>
 
   
 <!--Shipping Information-->
-    <h1>Shipping Information</h1>
+  <section class="shipping">
+
+    <h1 class="info">Shipping Information</h1>
     
-    <form>
-      <input type="text" placeholder="First Name">
-    </form>
+    <section class="names">
+      <form>
+        <input type="text" placeholder="First Name">
+      </form>
 
-    <form>
-      <input type="text" placeholder="Last Name">
-    </form>
+      <form>
+        <input type="text" placeholder="Last Name">
+      </form>
+    </section>
 
-    <form>
-      <input type="text" placeholder="Address Line 1">
-    </form>
+      <form>
+        <input type="text" placeholder="Address Line 1">
+      </form>
 
-    <form>
-      <input type="text" placeholder="Address Line 2">
-    </form>
+      <form>
+        <input type="text" placeholder="Address Line 2">
+      </form>
 
-    <form>
-      <input type="text" placeholder="City">
-    </form>
+    <section class="location">
+      <form>
+        <input type="text" placeholder="City">
+      </form>
 
-    <form>
-      <input type="text" placeholder="State">
-    </form>
+      <form>
+        <input type="text" placeholder="State">
+      </form>
 
-    <form>
-      <input type="text" placeholder="Zip Code">
-    </form>
+      <form>
+        <input type="text" placeholder="Zip Code">
+      </form>
+    </section>
 
-    <button>
+
+    <button class="payment">
       Payment
       <img src="../img/icon/next-arrow.svg" alt="next-arrow">
     </button>
+
+  </section>
 
 
     <script src="../js/scripts-min.js"></script>

@@ -332,14 +332,119 @@ template {
   grid-area: content;
 }
 
+/* nav */
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.close {
+  width: 25px;
+  height: 25px;
+}
+
+.show-menu {
+  display: block !important;
+}
+
 body {
   background-color: #F4DAC8;
 }
 @media (min-width: 992px) {
+  body {
+    /* check-out */
+    /* thanks */
+  }
   body .margin-con {
     display: grid;
     grid-template-columns: 64px auto 64px;
     grid-template-areas: ". content .";
+  }
+  body .header-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  body .logo-img {
+    width: 35%;
+    margin-top: 50px;
+    margin-left: 33%;
+    margin-bottom: 50px;
+  }
+  body .circles {
+    margin-left: 15%;
+    margin-bottom: 50px;
+  }
+  body h1 {
+    text-align: left;
+  }
+  body h2 {
+    text-align: left;
+  }
+  body .order-box {
+    background-color: white;
+    padding: 18px;
+    display: grid;
+    grid-template-columns: 25% 55% 20%;
+  }
+  body .order-box .button-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30%;
+    margin-bottom: 15%;
+  }
+  body .shipping {
+    background-color: #9A5C43;
+    padding: 2%;
+  }
+  body .info {
+    margin-left: 10%;
+  }
+  body .names {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  body .location {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  body .payment {
+    margin-left: 80%;
+    background-color: #EDA971;
+    border-radius: 10px;
+  }
+  body .price {
+    text-align: left;
+  }
+  body .order {
+    background-color: #EDA971;
+    border-radius: 10px;
+  }
+  body .thank-you {
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  body .more {
+    margin-top: 120px;
+  }
+  body .saw-img {
+    width: 311px;
+    height: 162px;
+    object-fit: cover;
+  }
+  body .saws {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  body .thank-show {
+    background-color: #EDA971;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 86%;
+    margin-bottom: 50px;
   }
 }
 
@@ -517,14 +622,85 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav {
+  display: none;
+  background-color: #000;
+  height: 100vh;
+  padding: 16px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50vw;
+}
+nav div {
+  display: flex;
+  justify-content: flex-end;
+}
+nav div button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+nav div button:hover {
+  cursor: pointer;
+}
+nav ul {
+  height: 100%;
+  padding-top: 20%;
+}
+nav li {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+  text-align: right;
+}
+nav li a:link,
+nav li a:visited {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.25s;
+}
+nav li a:link:hover, nav li a:link:active,
+nav li a:visited:hover,
+nav li a:visited:active {
+  color: #7d7d7d;
+}
+nav li:first-child {
+  border: none;
+}
+
 /* =============
     Header
 ============= */
 header {
   background-color: #9A5C43;
-  justify-content: space-between;
   padding-top: 36px;
   padding-bottom: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media (min-width: 992px) {
+  header header {
+    background-color: #9A5C43;
+    padding-top: 36px;
+    padding-bottom: 18px;
+  }
+}
+@media (min-width: 992px) {
+  header {
+    display: none;
+  }
+}
+header button {
+  border: none;
+  background-color: transparent;
+  color: #000;
+  font-size: 20px;
+}
+header button:hover {
+  cursor: pointer;
 }
 
 /* =============
@@ -597,8 +773,8 @@ footer {
 
 .materials {
   margin-top: 25px;
-  margin-left: 21px;
-  margin-right: 21px;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-bottom: 50px;
 }
 
@@ -656,11 +832,19 @@ footer {
   margin-bottom: 18px;
   padding: 25px;
   border-radius: 10px;
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+.review-box .review-icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 @media (min-width: 992px) {
   .review-background .review-box {
     border-radius: 20px;
+    display: grid;
+    grid-template-columns: 90% 10%;
   }
 }
 
@@ -680,8 +864,8 @@ footer {
 }
 
 .cart {
-  margin-left: 92px;
-  margin-right: 92px;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 @media (min-width: 992px) {

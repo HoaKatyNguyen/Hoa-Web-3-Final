@@ -20,7 +20,27 @@
   <body>
     <header class="margin-con">
       <secion class="content">
-      <img src="img/icon/hamburger.svg" alt="nav">
+
+        <!-- Mobile Nav Icon, Won't Display on Desktop & Up-->
+          <button id="burger-btn">
+              <img src="img/icon/hamburger.svg" alt="hamburger">
+          </button>
+      <!-- End Mobile Nav Icon -->
+      
+      <!-- Menu Alters Between Mobile/Tablet & Desktop-->
+      <nav id="main-menu">
+          <div>
+              <button id="close-btn">
+                  <img class="close" src="img/icon/close.svg" alt="close">
+              </button> 
+          </div>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="html/check-out.html">Check Out</a></li>
+              <li><a href="html/thanks.html">Thanks</a></li>    
+          </ul>
+      </nav>
+      <!--End Nav -->
       <img src="img/logo.svg" alt="logo">
       <img src="img/icon/avatar.svg" alt="avatar">
       </secion>
@@ -161,26 +181,38 @@
     <img src="img/icon/main-stars.svg" alt="main-stars">
   
     <section class="review-box">
-      <img src="img/icon/avatar.svg" alt="avatar">
-      <p>05/11/2022</p>
-      <img src="img/icon/sub-stars.svg" alt="sub-stars">
-      <p>This is such a quality tool. The saw feels very sturdy and weighty in my hand.</p>
-      <img src="img/review-pic1.svg" alt="review1">
+      <div>
+        <div class="review-icon">
+          <img src="img/icon/avatar.svg" alt="avatar">
+          <p>05/11/2022</p>
+          <img src="img/icon/sub-stars.svg" alt="sub-stars">
+        </div>
+          <p>This is such a quality tool. The saw feels very sturdy and weighty in my hand.</p>
+      </div>
+          <img src="img/review-pic1.svg" alt="review1">
     </section>
 
     <section class="review-box">
-      <img src="img/icon/avatar.svg" alt="avatar">
-      <p>10/03/2020</p>
-      <img src="img/icon/sub-stars.svg" alt="sub-stars">
-      <p>Great service. Would buy again.</p>
+      <div>
+        <div class="review-icon">
+          <img src="img/icon/avatar.svg" alt="avatar">
+          <p>10/03/2020</p>
+          <img src="img/icon/sub-stars.svg" alt="sub-stars">
+        </div>
+        <p>Great service. Would buy again.</p>
+      </div>
       <img src="img/review-pic2.svg" alt="review2">
     </section>
 
     <section class="review-box">
-      <img src="img/icon/avatar.svg" alt="avatar">
-      <p>08/21/2020</p>
-      <img src="img/icon/sub-stars.svg" alt="sub-stars">
-      <p>As someone who has been making furnitures for a while now, I have...</p>
+      <div>
+        <div class="review-icon">
+        <img src="img/icon/avatar.svg" alt="avatar">
+        <p>08/21/2020</p>
+        <img src="img/icon/sub-stars.svg" alt="sub-stars">
+        </div>
+        <p>As someone who has been making furnitures for a while now, I have...</p>
+      </div>
       <img src="img/review-pic3.svg" alt="review3">
     </section>
 
