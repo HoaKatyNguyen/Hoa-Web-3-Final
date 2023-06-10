@@ -25,8 +25,10 @@
         <img src="../img/logo.svg" alt="logo">
 
         <form action="#">
-          <input type="text" placeholder="Search">
-          <img src="../img/icon/search.svg" alt="search-img">
+          <input class="search-bar" type="text" placeholder="Search">
+          <button action="#">
+            <img src="../img/icon/search.svg" alt="search-img">
+          </button>
         </form>
 
   <!-- Mobile Nav Icon, Won't Display on Desktop & Up-->
@@ -94,8 +96,23 @@
   <section class="shipping">
 
     <h1 class="info ordered">Shipping Information</h1>
+
+    <form class="shipping-add" action="#">
+      <input class="first" type="text" placeholder="First Name">
+      <input class="last" type="text" placeholder="Last Name">
+      <input class="line1" type="text" placeholder="Address Line 1">
+      <input class="line2" type="text" placeholder="Address Line 2">
+      <input class="city" type="text" placeholder="City">
+      <input class="state" type="text" placeholder="State">
+      <input class="zip" type="text" placeholder="Zip Code">
+
+      <button class="payment">
+        Payment
+        <img src="../img/icon/next-arrow.svg" alt="next-arrow">
+      </button>
+    </form>
     
-    <section class="names">
+    <!-- <section class="names">
       <form>
         <input type="text" placeholder="First Name">
       </form>
@@ -133,7 +150,7 @@
       <img src="../img/icon/next-arrow.svg" alt="next-arrow">
     </button>
 
-  </section>
+  </section> -->
 
 
     <script src="../js/scripts-min.js"></script>

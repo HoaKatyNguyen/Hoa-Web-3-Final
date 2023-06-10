@@ -1,0 +1,37 @@
+/* =============
+    thanks
+============= */
+
+
+body{
+    @include lg{
+        .thank-you{
+            text-align: center;
+            margin-bottom: 10%;
+        }
+
+        .more{
+            margin-top: 120px;
+        }
+
+        .saw-img{
+            width: 311px;
+            height: 162px;
+            object-fit: cover;
+        }
+
+        .saws{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        .thank-show{
+            background-color:#EDA971;
+            border-radius: 10px;
+            padding: 10px;
+            margin-top: 15px;
+            margin-left: 86%;
+            margin-bottom: 50px;
+        }
+    }
+}

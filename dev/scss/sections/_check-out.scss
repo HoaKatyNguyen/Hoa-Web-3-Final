@@ -1,0 +1,140 @@
+/* =============
+    check-out
+============= */
+
+
+body{
+    @include lg{
+        .margin-con{
+            display: grid;
+            grid-template-columns: 64px auto 64px;
+            grid-template-areas: ". content .";
+        }
+
+        .header-con{
+            display: grid;
+            grid-template-columns: 20% 80% 10%;
+        }
+        
+        .logo-img{
+            width: 35%;
+            margin-top: 50px;
+            margin-left: 33%;
+            margin-bottom: 50px;
+        }
+
+     
+        .circles{
+            margin-left: 15%;
+            margin-bottom: 50px;
+        }
+
+        .details{
+            text-align: left;
+        }
+
+        .ordered{
+            text-align: left;
+        }
+
+        .order-box{
+            background-color: white;
+            padding: 18px;
+            
+            display: grid;
+            grid-template-columns: 25% 55% 20%;
+
+            margin-bottom: 50px;
+
+            .button-con{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                margin-top: 30%;
+                margin-bottom: 15%;
+            }
+        }
+
+        .shipping{
+            background-color: #9A5C43;
+            padding: 2%;
+        }
+
+        .info{
+            margin-left: 10%;
+        }
+
+        .names{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .location{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .payment{
+            background-color: #EDA971;
+            border-radius: 10px;
+        }
+
+        .price{
+            text-align: left;
+        }
+
+        .order{
+            background-color: #EDA971;
+            border-radius: 10px;
+        }
+
+        .shipping-add{
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-areas:
+            'first first first last last last'
+            'line1 line1 line1 line1 line1 line1'
+            'line2 line2 line2 line2 line2 line2'
+            'city city state state zip zip'
+            '. . . . . payment';
+            gap: 12px;
+
+            .first{
+                grid-area: first;
+            }
+
+            .last{
+                grid-area: last;
+            }
+
+            .line1{
+                grid-area: line1;
+            }
+
+            .line2{
+                grid-area: line2;
+            }
+
+            .city{
+                grid-area: city;
+            }
+
+            .state{
+                grid-area: state;
+            }
+
+            .zip{
+                grid-area: zip;
+            }
+
+            .payment{
+                grid-area: payment;
+            }
+        
+        }
+
+        input{
+            padding: 10px;
+            border: none;
+        }
+    }
+}

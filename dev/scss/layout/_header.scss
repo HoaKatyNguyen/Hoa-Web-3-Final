@@ -8,14 +8,23 @@ header{
     padding-top: 36px;
     padding-bottom: 18px;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+
+    .header-con{
+    display: flex;
+    justify-content: center;
+    }
+    
 
     @include lg{
         header{
             background-color: #9A5C43;
             padding-top: 36px;
             padding-bottom: 18px;
+        }
+
+        .logo-header{
+            width: 25%;
+            margin-left: 32%;
         }
     }
 
